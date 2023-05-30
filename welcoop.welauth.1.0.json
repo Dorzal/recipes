@@ -1,0 +1,29 @@
+{
+  "manifests": {
+    "welcoop/welauth": {
+      "manifest": {
+        "bundles": {
+          "welcoop/welauth": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/welauth.yaml": {
+          "contents": [
+            "welauth:",
+            "   cert_kid: 'ID du certificat utilisé dans votre SSO'",
+            "   client_id: 'ID du client créé dans votre SSO'",
+            "   wellknown_url: 'url du .wellknown de votre SSO'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "3992f9d8f0d71a90afeb4cdb07bf12b97f6d29a7"
+    }
+  }
+}
