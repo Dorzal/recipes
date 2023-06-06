@@ -1,8 +1,7 @@
 {
   "recipes": {
     "welcoop/welauth": [
-      "1.0",
-      "1.0.0"
+      "1.0"
     ]
   },
   "branch": "main",
@@ -10,6 +9,6 @@
   "_links": {
     "repository": "github.com/dorzal/recipes",
     "origin_template": "{package}:{version}github.com/dorzal/recipes:main",
-    "recipe_template": "https://api.github.com/repos/dorzal/recipes/contents/{package_dotted}.{version}.json"
+    "recipe_template": "https://raw.githubusercontent.com/Dorzal/recipes/main/{package_dotted}.{version}.json"
   }
 }
