@@ -5,7 +5,7 @@
     ]
   },
   "branch": "main",
-  "is_contrib": true,
+  "is_contrib": false,
   "_links": {
     "repository": "github.com/dorzal/recipes",
     "origin_template": "{package}:{version}@github.com/dorzal/recipes:main",
