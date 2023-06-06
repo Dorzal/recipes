@@ -3,7 +3,7 @@
     "welcoop/welauth": {
       "manifest": {
         "bundles": {
-          "welcoop/welauth": [
+          "welcoop\\welauth": [
             "all"
           ]
         },
